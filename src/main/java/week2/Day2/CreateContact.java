@@ -10,7 +10,7 @@ import com.seleniumProject.UtilFiles;
 
 public class CreateContact {
 	
-	void loginToLeafTaps(WebDriver driver) {
+	public void loginToLeafTaps(WebDriver driver) {
 		//2. Enter UserName and Password Using Id Locator
 	  	driver.findElement(By.id("username")).sendKeys("Demosalesmanager");
 		driver.findElement(By.id("password")).sendKeys("crmsfa");

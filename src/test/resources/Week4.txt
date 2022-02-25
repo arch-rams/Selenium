@@ -1,0 +1,132 @@
+Week 4: day2
+Assignment 1:  DONE
+===============
+Window Handling:
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day2/Assignments/MergeContact.java
+
+Assignment 2: ServiceNow - Frames
+----------------------------------
+
+ServiceNow- 
+Refer the attached document below for clarity to create your own instance( sign In credentials) to work with servicenow
+Refer the attached document for the flow of the application to complete the testcase
+
+Step1: Load ServiceNow application URL 
+Step2: Enter username (Check for frame before entering the username)
+Step3: Enter password 
+Step4: Click Login
+Step5: Search “incident “ Filter Navigator
+Step6: Click “All”
+Step7: Click New button
+Step8: Select a value for Caller and Enter value for short_description
+Step9: Read the incident number and save it a variable
+Step10: Click on Submit button
+Step 11: Search the same incident number in the next search screen as below
+Step12: Verify the incident is created successful and take snapshot of the created incident.
+
+Assignment 3: (Frames)
+-------------
+ https://chercher.tech/practice/frames-example-selenium-webdriver
+
+Assignment 4:
+------------
+http://leafground.com/pages/frame.html
+1.Take the the screenshot of the click me button of first frame
+2.Find the number of frames
+  - find the Elements by tagname - iframe
+  - Store it in a list
+  - Get the size of the list. (This gives the count of the frames visible to the main page)
+
+
+
+Assignment 5:  (Actions)  DONE
+=============
+
+https://jqueryui.com/draggable
+https://jqueryui.com/droppable
+https://jqueryui.com/resizable
+https://jqueryui.com/selectable
+https://jqueryui.com/sortable
+
+Assignment 6:  DONE
+=============
+1) Go to https://www.nykaa.com/
+2) Mouseover on Brands and Search L'Oreal Paris
+3) Click L'Oreal Paris
+4) Check the title contains L'Oreal Paris(Hint-GetTitle)
+5) Click sort By and select customer top rated
+6) Click Category and click Hair->Click haircare->Shampoo
+7) Click->Concern->Color Protection
+8)check whether the Filter is applied with Shampoo
+9) Click on L'Oreal Paris Colour Protect Shampoo
+10) GO to the new window and select size as 175ml
+11) Print the MRP of the product
+12) Click on ADD to BAG
+13) Go to Shopping Bag 
+14) Print the Grand Total amount
+15) Click Proceed
+16) Click on Continue as Guest
+17) Check if this grand total is the same in step 14
+18) Close all windows
+
+Assignment 7:  DONE
+============
+1. Launch https://www.snapdeal.com/
+2. Go to Mens Fashion
+3. Go to Sports Shoes
+4. Get the count of the sports shoes
+5. Click Training shoes
+6. Sort by Low to High
+7. Check if the items displayed are sorted correctly
+8.Select the price range (900-1200)
+9.Filter with color Navy 
+10 verify the all applied filters 
+11. Mouse Hover on first resulting Training shoes
+12. click QuickView button
+13. Print the cost and the discount percentage
+14. Take the snapshot of the shoes.
+15. Close the current window
+16. Close the main window
+Assignment 8:
+===========
+Amazon:
+1.Load the uRL https://www.amazon.in/
+2.search as oneplus 9 pro 
+3.Get the price of the first product
+4. Print the number of customer ratings for the first displayed product
+5. click on the stars 
+6. Get the percentage of ratings for the 5 star.
+7. Click the first text link of the first image
+8. Take a screen shot of the product displayed
+9. Click 'Add to Cart' button
+10. Get the cart subtotal and verify if it is correct.
+
+
+
+
+
+
+Week4: Day1  DONE
+
+Assignment for Webtable 
+==================
+1.http://www.leafground.com/pages/table.html 
+2.http://www.leafground.com/pages/sorttable.html
+
+*Note the instructions(pseudocode) are given below the  table given in the application
+
+Assignments on Explicit Wait
+======================
+http://www.leafground.com/pages/disapper.html
+http://www.leafground.com/pages/appear.html
+http://www.leafground.com/pages/TextChange.html
+
+Note the instructions(pseudocode) are given below the  table given in the application
+
+*Apply screenshot concept in both the assignments
+
+
+
+//table[@id='histogramTable']//a[contains(@title,'5 stars represent')]
+
+//span[@class='acr-average-stars-rating-text']
