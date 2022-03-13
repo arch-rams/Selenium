@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UtilFiles {
 
+	
 	public static WebDriver setUpDriver(String browserType) {
 
 		browserType = browserType.toLowerCase();
@@ -28,20 +29,20 @@ public class UtilFiles {
 		switch (browserType) {
 
 		case "chrome": {
-			System.setProperty("webdriver.chrome.driver", "D:\\Archana\\AutoResourceFiles\\chromeDriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\TechTutorials\\Eclipse\\AutoResourceFiles\\chromeDriver.exe");
 			ChromeDriver driver = new ChromeDriver();
 			return driver;
 
 		}
 
 		case "firefox": {
-			System.setProperty("webdriver.gecko.driver", "D:\\Archana\\AutoResourceFiles\\chromeDriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\TechTutorials\\Eclipse\\AutoResourceFiles\\chromeDriver.exe");
 			FirefoxDriver driver = new FirefoxDriver();
 			return driver;
 
 		}
 		default: {
-			System.setProperty("webdriver.chrome.driver", "D:\\Archana\\AutoResourceFiles\\chromeDriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\TechTutorials\\Eclipse\\AutoResourceFiles\\chromeDriver.exe");
 			ChromeDriver driver = new ChromeDriver();
 			return driver;
 
@@ -63,7 +64,7 @@ public class UtilFiles {
 	public void takeScreenshot(WebDriver driver, String func) throws IOException {
 		TakesScreenshot srcShot = ((TakesScreenshot)driver);
 		File tmp = srcShot.getScreenshotAs(OutputType.FILE);
-		File dest = new File("D:\\Archana\\Selenium\\src\\main\\resources\\" +func+timeStamp()+".jpg");
+		File dest = new File("./Selenium/src/main/resources/OutputScreenshot/" +func+timeStamp()+".jpg");
 		FileUtils.copyFile(tmp, dest);
 	}
 	
@@ -71,7 +72,7 @@ public class UtilFiles {
 		TakesScreenshot srcShot = ((TakesScreenshot)driver);
 		
 		File tmp = srcShot.getScreenshotAs(OutputType.FILE);
-		File dest = new File("D:\\Archana\\Selenium\\src\\main\\resources\\" +func+timeStamp()+".jpg");
+		File dest = new File("./Selenium/src/main/resources/OutputScreenshot/" +func+timeStamp()+".jpg");
 		FileUtils.copyFile(tmp, dest);
 	}
 	

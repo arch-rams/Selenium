@@ -39,7 +39,7 @@ http://leafground.com/pages/frame.html
 
 
 
-Assignment 5:  (Actions)
+Assignment 5:  (Actions)  DONE
 =============
 
 https://jqueryui.com/draggable
@@ -48,7 +48,7 @@ https://jqueryui.com/resizable
 https://jqueryui.com/selectable
 https://jqueryui.com/sortable
 
-Assignment 6:
+Assignment 6:  DONE
 =============
 1) Go to https://www.nykaa.com/
 2) Mouseover on Brands and Search L'Oreal Paris
@@ -69,7 +69,7 @@ Assignment 6:
 17) Check if this grand total is the same in step 14
 18) Close all windows
 
-Assignment 7:
+Assignment 7:  DONE
 ============
 1. Launch https://www.snapdeal.com/
 2. Go to Mens Fashion
